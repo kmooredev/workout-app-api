@@ -13,7 +13,7 @@ const exercises = [
     primaryMuscle: 'chest',
     secondaryMuscle: 'triceps',
     equipment: ['body'],
-    _id: '1',
+    _id: 1,
   },
   {
     name: 'Barbell Bench Press',
@@ -22,7 +22,7 @@ const exercises = [
     primaryMuscle: 'chest',
     secondaryMuscle: 'triceps',
     equipment: ['barbell', 'bench'],
-    _id: '2',
+    _id: 2,
   },
   {
     name: 'Dumbbell Incline Bench Press',
@@ -31,7 +31,7 @@ const exercises = [
     primaryMuscle: 'chest',
     secondaryMuscle: 'triceps',
     equipment: ['dumbbell', 'bench'],
-    _id: '3',
+    _id: 3,
   },
   {
     name: 'Barbell Bent-Over Row',
@@ -40,7 +40,7 @@ const exercises = [
     primaryMuscle: 'back',
     secondaryMuscle: 'biceps',
     equipment: ['barbell'],
-    _id: '4',
+    _id: 4,
   },
   {
     name: 'Seated Cable Row',
@@ -49,7 +49,7 @@ const exercises = [
     primaryMuscle: 'back',
     secondaryMuscle: 'biceps',
     equipment: ['cable'],
-    _id: '5',
+    _id: 5,
   },
   {
     name: 'Single Arm Dumbbell Row',
@@ -58,7 +58,7 @@ const exercises = [
     primaryMuscle: 'back',
     secondaryMuscle: 'biceps',
     equipment: ['dumbbell', 'bench'],
-    _id: '6',
+    _id: 6,
   },
   {
     name: 'Barbell Overhead Press',
@@ -67,7 +67,7 @@ const exercises = [
     primaryMuscle: 'shoulders',
     secondaryMuscle: 'triceps',
     equipment: ['barbell'],
-    _id: '7',
+    _id: 7,
   },
   {
     name: 'Seated Dumbbell Shoulder Press',
@@ -76,7 +76,7 @@ const exercises = [
     primaryMuscle: 'shoulders',
     secondaryMuscle: 'triceps',
     equipment: ['dumbbell', 'bench'],
-    _id: '8',
+    _id: 8,
   },
   {
     name: 'Machine Shoulder Press',
@@ -85,7 +85,7 @@ const exercises = [
     primaryMuscle: 'shoulders',
     secondaryMuscle: 'triceps',
     equipment: ['machine'],
-    _id: '9',
+    _id: 9,
   },
   {
     name: 'Pullup',
@@ -94,7 +94,7 @@ const exercises = [
     primaryMuscle: 'back',
     secondaryMuscle: 'biceps',
     equipment: ['body'],
-    _id: '10',
+    _id: 10,
   },
   {
     name: 'Lat Pulldown',
@@ -103,7 +103,7 @@ const exercises = [
     primaryMuscle: 'back',
     secondaryMuscle: 'biceps',
     equipment: ['machine'],
-    _id: '11',
+    _id: 11,
   },
   {
     name: 'Cable Straight Arm Pulldown',
@@ -112,7 +112,7 @@ const exercises = [
     primaryMuscle: 'back',
     secondaryMuscle: 'serratus anterior',
     equipment: ['cable'],
-    _id: '12',
+    _id: 12,
   },
   {
     name: 'Barbell Back Squat',
@@ -121,7 +121,7 @@ const exercises = [
     primaryMuscle: 'quads',
     secondaryMuscle: 'glutes',
     equipment: ['barbell'],
-    _id: '13',
+    _id: 13,
   },
   {
     name: 'Kettlebell Goblet Squat',
@@ -130,7 +130,7 @@ const exercises = [
     primaryMuscle: 'quads',
     secondaryMuscle: 'glutes',
     equipment: ['kettlebell'],
-    _id: '14',
+    _id: 14,
   },
   {
     name: 'Air Squat',
@@ -139,7 +139,7 @@ const exercises = [
     primaryMuscle: 'quads',
     secondaryMuscle: 'glutes',
     equipment: ['body'],
-    _id: '15',
+    _id: 15,
   },
   {
     name: 'Barbell Deadlift',
@@ -148,7 +148,7 @@ const exercises = [
     primaryMuscle: 'hamstrings',
     secondaryMuscle: 'glutes',
     equipment: ['barbell'],
-    _id: '16',
+    _id: 16,
   },
   {
     name: 'Kettlebell Romanian Deadlift',
@@ -157,7 +157,7 @@ const exercises = [
     primaryMuscle: 'hamstrings',
     secondaryMuscle: 'glutes',
     equipment: ['kettlebell'],
-    _id: '17',
+    _id: 17,
   },
   {
     name: 'Barbell Good Morning',
@@ -166,7 +166,7 @@ const exercises = [
     primaryMuscle: 'hamstrings',
     secondaryMuscle: 'glutes',
     equipment: ['barbell'],
-    _id: '18',
+    _id: 18,
   },
   {
     name: 'Dumbbell Lunge',
@@ -175,7 +175,7 @@ const exercises = [
     primaryMuscle: 'quads',
     secondaryMuscle: 'glutes',
     equipment: ['dumbbell'],
-    _id: '19',
+    _id: 19,
   },
   {
     name: 'Dumbbell Bulgarian Split Squat',
@@ -184,7 +184,7 @@ const exercises = [
     primaryMuscle: 'quads',
     secondaryMuscle: 'glutes',
     equipment: ['dumbbell', 'bench'],
-    _id: '20',
+    _id: 20,
   },
   {
     name: 'Dumbbell Step Up',
@@ -193,7 +193,7 @@ const exercises = [
     primaryMuscle: 'quads',
     secondaryMuscle: 'glutes',
     equipment: ['dumbbell', 'bench'],
-    _id: '21',
+    _id: 21,
   },
   {
     name: 'Plank',
@@ -202,7 +202,7 @@ const exercises = [
     primaryMuscle: 'core',
     secondaryMuscle: '',
     equipment: ['body'],
-    _id: '22',
+    _id: 22,
   },
   {
     name: 'Crunch',
@@ -211,7 +211,7 @@ const exercises = [
     primaryMuscle: 'core',
     secondaryMuscle: '',
     equipment: ['body'],
-    _id: '23',
+    _id: 23,
   },
   {
     name: 'Dead Bug',
@@ -220,7 +220,7 @@ const exercises = [
     primaryMuscle: 'core',
     secondaryMuscle: '',
     equipment: ['body'],
-    _id: '24',
+    _id: 24,
   },
   {
     name: 'Dumbbell Bicep Curl',
@@ -229,7 +229,7 @@ const exercises = [
     primaryMuscle: 'biceps',
     secondaryMuscle: '',
     equipment: ['dumbbell'],
-    _id: '25',
+    _id: 25,
   },
   {
     name: 'Cable Tricep Pushdown',
@@ -238,7 +238,7 @@ const exercises = [
     primaryMuscle: 'triceps',
     secondaryMuscle: '',
     equipment: ['cable'],
-    _id: '26',
+    _id: 26,
   },
   {
     name: 'Dumbbell Lateral Raise',
@@ -247,7 +247,7 @@ const exercises = [
     primaryMuscle: 'shoulders',
     secondaryMuscle: '',
     equipment: ['dumbbell'],
-    _id: '27',
+    _id: 27,
   },
   {
     name: 'Dumbbell Front Raise',
@@ -256,7 +256,7 @@ const exercises = [
     primaryMuscle: 'shoulders',
     secondaryMuscle: '',
     equipment: ['dumbbell'],
-    _id: '28',
+    _id: 28,
   },
   {
     name: 'Dumbbell Rear Delt Fly',
@@ -265,7 +265,7 @@ const exercises = [
     primaryMuscle: 'shoulders',
     secondaryMuscle: '',
     equipment: ['dumbbell'],
-    _id: '29',
+    _id: 29,
   },
   {
     name: 'Dumbbell Hammer Curl',
@@ -274,7 +274,7 @@ const exercises = [
     primaryMuscle: 'biceps',
     secondaryMuscle: '',
     equipment: ['dumbbell'],
-    _id: '30',
+    _id: 30,
   },
   {
     name: 'Dumbbell Skull Crusher',
@@ -283,7 +283,7 @@ const exercises = [
     primaryMuscle: 'triceps',
     secondaryMuscle: '',
     equipment: ['dumbbell'],
-    _id: '31',
+    _id: 31,
   },
   {
     name: 'Dumbbell Shoulder Shrug',
@@ -292,7 +292,7 @@ const exercises = [
     primaryMuscle: 'traps',
     secondaryMuscle: '',
     equipment: ['dumbbell'],
-    _id: '32',
+    _id: 32,
   },
   {
     name: 'Dumbbell Upright Row',
@@ -301,7 +301,7 @@ const exercises = [
     primaryMuscle: 'traps',
     secondaryMuscle: '',
     equipment: ['dumbbell'],
-    _id: '33',
+    _id: 33,
   },
   {
     name: 'Dumbbell Bent Over Reverse Fly',
@@ -310,7 +310,7 @@ const exercises = [
     primaryMuscle: 'back',
     secondaryMuscle: '',
     equipment: ['dumbbell'],
-    _id: '34',
+    _id: 34,
   },
   {
     name: 'Dumbbell Lying Tricep Extension',
@@ -319,7 +319,7 @@ const exercises = [
     primaryMuscle: 'triceps',
     secondaryMuscle: '',
     equipment: ['dumbbell'],
-    _id: '35',
+    _id: 35,
   },
 ];
 
